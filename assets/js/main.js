@@ -6,6 +6,11 @@ $(document).ready(function() {
     $('.flex-container').toggleClass('active');
   });
 
+  $('.flex-container.active').click(function(e) {
+    e.preventDefault();
+    $('.flex-container').toggleClass('active');
+  });
+  
   // Search Settings
   $('.search-icon').on('click', function(e){
     e.preventDefault();
