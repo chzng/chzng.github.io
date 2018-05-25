@@ -3,26 +3,19 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
-<div class="flex-container">
-  {% include header.html %}
-  <div class="content wrapper">
-    <section class="blog-posts">
-      <h1>Blog Posts</h1>
-      <ol class="posts-list clearfix">
-        {% for post in paginator.posts %}
-        <li>
-          <span>
-            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-          </span>
-          <small>
-            <span>| {{ post.date | date_to_string }}</span>
-          </small>
-        </li>
-        {% endfor %}
-      </ol>
-    </section>
-  {% include search.html %}
-  {% include pagination.html %}
-  </div> <!-- End Wrapper -->
-  {% include footer.html %}
-</div>
+
+<section class="blog-posts">
+  <h1>Blog Posts</h1>
+  <ol class="posts-list clearfix">
+    {% for post in paginator.posts %}
+    <li>
+      <span>
+        <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+      </span>
+      <small>
+        <span>| {{ post.date | date_to_string }}</span>
+      </small>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
