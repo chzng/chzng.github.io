@@ -5,11 +5,6 @@ $(document).ready(function() {
     e.preventDefault();
     $('.flex-container').toggleClass('active');
   });
-
-  $('.flex-container.active::after').on('click',function(e){
-    e.preventDefault();
-    $('.flex-container.active').toggleClass('active');
-  });
   
   // Search Settings
   $('.search-icon').on('click', function(e){
