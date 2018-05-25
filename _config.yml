@@ -1,0 +1,36 @@
+title: 前端笔记
+email: chzng@outlook.com
+description: Chzng's前端笔记
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: chzng # add your name
+author-pic: chzng-face.jpg
+about-author: My name is Chzng. I’m a full-time front-end Engineer.
+
+# Contact links
+email: chzng@outlook.com # Add your Email address
+phone: none # Add your Phone number
+website: https://chzng.github.io # Add your website, do not add http://
+github: chzng # Add your Github handle
+twitter: chzng # Add your Twitter handle
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
