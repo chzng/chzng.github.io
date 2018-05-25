@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('.flex-container').toggleClass('active');
   });
 
-  $('.flex-container.active').on('click',function(e){
+  $('.flex-container.active::after').on('click',function(e){
     e.preventDefault();
     $('.flex-container.active').toggleClass('active');
   });
