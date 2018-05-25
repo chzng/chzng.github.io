@@ -25,3 +25,8 @@ $(document).ready(function() {
   });
 
 });
+
+  $('.flex-container.active').click(function(e) {
+    e.preventDefault();
+    $('.flex-container').toggleClass('active');
+  });
