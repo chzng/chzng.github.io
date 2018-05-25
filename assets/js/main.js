@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 });
 
-  $('.flex-container.active').click(function(e) {
+$('.flex-container.active').on('click',function(e){
     e.preventDefault();
-    $('.flex-container').toggleClass('active');
-  });
+    $('.flex-container.active').toggleClass('active');
+});
