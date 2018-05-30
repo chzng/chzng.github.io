@@ -7,12 +7,12 @@ $(document).ready(function() {
     
     // Mask Click
     if($('.flex-container').hasClass('active')) {
-      $("body").css("display","block");
+      $("body").css("overflow","hidden");
       $('.flex-container.active .page-mask').on('click',function(){
         $('.flex-container').removeClass('active');
       });
     } else {
-      $('body').removeAttr("display");
+      $('body').removeAttr("overflow");
     }
   });
   
