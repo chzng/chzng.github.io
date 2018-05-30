@@ -26,3 +26,9 @@ $(document).ready(function() {
   });
 
 });
+
+
+$('.flex-container.active .page-mask').click(function(e) {
+  //e.preventDefault();
+  $('.flex-container').toggleClass('active');
+});
