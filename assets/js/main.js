@@ -6,6 +6,12 @@ $(document).ready(function() {
     $('.flex-container').toggleClass('active');
   });
   
+  // Mask Click
+  $('flex-container.active .page-mask').click(function(e) {
+    e.preventDefault();
+    $('.flex-container').toggleClass('active');
+  });
+  
   // Search Settings
   $('.search-icon').on('click', function(e){
     e.preventDefault();
