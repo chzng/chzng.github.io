@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('.flex-container').toggleClass('active');
     
     // Mask Click
-    if('.flex-container').hasClass('active') {
+    if($('.flex-container').hasClass('active')) {
       $('.flex-container.active .page-mask').on('click',function(){
         $('.flex-container').removeClass('active');
       });
