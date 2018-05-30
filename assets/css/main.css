@@ -1528,6 +1528,34 @@ pre code {
           transform: scale(1.3);
 }
 
+/* = = = = = = = = = = Blog Styles = = = = = = = = = = */
+.blog-posts {
+  margin: 100px 0 100px;
+}
+
+.blog-posts h1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 0 30px;
+  color: #311e3e;
+}
+
+.blog-posts .posts-list li span a {
+  display: inline-block;
+  color: #87314e;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.blog-posts .posts-list li small {
+  color: #311e3e;
+}
+
 /* = = = = = = = = = = Tags Styles = = = = = = = = = = */
 .blog-tags {
   margin: 100px 0 100px;
