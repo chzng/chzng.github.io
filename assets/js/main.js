@@ -16,11 +16,6 @@ $(document).ready(function() {
     }
   });
   
-  // Mask Click
-//   $('.flex-container.active .page-mask').on('click',function(){
-//     $('.flex-container').removeClass('active');
-//   });
-  
   // Search Settings
   $('.search-icon').on('click', function(e){
     e.preventDefault();
