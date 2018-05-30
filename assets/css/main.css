@@ -1,7 +1,7 @@
 .highlight {
   background-color: #faf9f9;
   -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   margin: 0;
 }
 
@@ -855,10 +855,11 @@ pre code {
 
 .page-mask {
   display:none;
+  width: 0;
+  height: 0;
 }
 
 .flex-container.active .page-mask {
-  content: "";
   position: fixed;
   top: 0;
   right: 0;
