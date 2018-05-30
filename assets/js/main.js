@@ -7,8 +7,7 @@ $(document).ready(function() {
   });
   
   // Mask Click
-  $('.flex-container.active .page-mask').on('click',function(e){
-    e.preventDefault();
+  $('.flex-container.active .page-mask').on('click',function(){
     $('.flex-container').toggleClass('active');
   });
   
