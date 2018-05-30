@@ -2,13 +2,13 @@ $(document).ready(function() {
 
   // Menu Settings
   $('.menu-icon, .menu-icon-close').click(function(e) {
-    e.preventDefault();
+    //e.preventDefault();
     $('.flex-container').toggleClass('active');
   });
   
   // Mask Click
   $('.flex-container.active .page-mask').click(function(e) {
-    e.preventDefault();
+    //e.preventDefault();
     $('.flex-container').toggleClass('active');
   });
   
