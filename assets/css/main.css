@@ -842,7 +842,7 @@ pre code {
           transform: translate3d(300px, 0, 0);
 }
 
-.flex-container.active::after {
+/* .flex-container.active::after {
   content: "";
   position: fixed;
   top: 0;
@@ -851,7 +851,7 @@ pre code {
   left: 0;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .page-mask {
   display:none;
@@ -865,7 +865,7 @@ pre code {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
