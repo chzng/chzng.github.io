@@ -4,6 +4,9 @@ $(document).ready(function() {
   $('.menu-icon, .menu-icon-close').click(function(e) {
     //e.preventDefault();
     $('.flex-container').toggleClass('active');
+    $('.flex-container.active .page-mask').on('click',function(){
+      $('.flex-container').removeClass('active');
+    });
   });
   
   // Mask Click
