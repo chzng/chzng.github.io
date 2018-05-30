@@ -7,8 +7,8 @@ $(document).ready(function() {
   });
   
   // Mask Click
-  $('.flex-container.active .page-mask').click(function(e) {
-    //e.preventDefault();
+  $('.flex-container.active .page-mask').on('click',function(e){
+    e.preventDefault();
     $('.flex-container').toggleClass('active');
   });
   
@@ -25,10 +25,4 @@ $(document).ready(function() {
   }
   });
 
-});
-
-
-$('.flex-container.active .page-mask').click(function(e) {
-  //e.preventDefault();
-  $('.flex-container').toggleClass('active');
 });
