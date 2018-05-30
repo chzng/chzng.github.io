@@ -8,7 +8,7 @@ $(document).ready(function() {
   
   // Mask Click
   $('.flex-container.active .page-mask').on('click',function(){
-    $('.flex-container').toggleClass('active');
+    $('.flex-container').removeClass('.active');
   });
   
   // Search Settings
