@@ -10,9 +10,8 @@ $(document).ready(function() {
       $("body").css("overflow","hidden");
       $('.flex-container.active .page-mask').on('click',function(){
         $('.flex-container').removeClass('active');
+        $('body').removeAttr("overflow");
       });
-    } else {
-      $('body').removeAttr("overflow");
     }
   });
   
