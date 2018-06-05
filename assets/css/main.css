@@ -1,7 +1,7 @@
 .highlight {
   background-color: #faf9f9;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+          border-radius: 3px;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@
 
 /* Error */
 .highlight .k {
-  color: #8959A8;
+  color: #069;
 }
 
 /* Keyword */
@@ -200,10 +200,6 @@
 /* Name.Namespace */
 .highlight .nt {
   color: #2f6f9f;
-}
-
-.highlight .nx {
-    color: #4271AE;
 }
 
 /* Name.Tag */
