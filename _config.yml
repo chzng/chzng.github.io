@@ -27,8 +27,7 @@ paginate_path: /page:num/
 # Build settings
 markdown: kramdown
 
-# highlighter: rouge
-highlighter: pygments
+highlighter: rouge
 
 plugins:
   - jekyll-paginate
