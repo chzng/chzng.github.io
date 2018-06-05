@@ -147,6 +147,10 @@
   color: #d44950;
 }
 
+.highlight .n {
+    color: #4271AE;
+}
+
 /* Literal.String */
 .highlight .na {
   color: #4f9fcf;
@@ -200,6 +204,10 @@
 /* Name.Namespace */
 .highlight .nt {
   color: #2f6f9f;
+}
+
+.highlight .nx {
+    color: #4271AE;
 }
 
 /* Name.Tag */
